@@ -25,6 +25,9 @@ def merge(left, right):
 
     while l < len(left) and r < len(right):
         if left[l] < right[r]:
+            """
+            如果左边都比右边的小
+            """
             result.append(left[l])
             l += 1
         else:
