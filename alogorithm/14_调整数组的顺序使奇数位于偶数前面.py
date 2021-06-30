@@ -16,6 +16,6 @@ def Reorder(li):
 
 if __name__ == '__main__':
 
-    li = [1,2,3,4,6,5]
+    li = [1,2,3,4,6,5, 0, -1]
     Reorder(li)
     print(li)
